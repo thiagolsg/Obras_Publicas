@@ -6,16 +6,17 @@ Este projeto consiste em tratar os dados de obras públicas e apresentar os dado
 ## Requisitos
 Python 3.9.0
 
-### Bibliotecas
-* pandas
-* tqdm
-* json
-* folium
-* branca
-
 <br>
 
 ## Como Rodar
+### Executando com Python
+```
+pip install -r requirements.txt
+```
+```
+python gera_mapa.py
+```
+
 <br>
 
 ## Exemplo
