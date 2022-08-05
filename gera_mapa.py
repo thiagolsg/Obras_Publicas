@@ -24,11 +24,11 @@ class make_map():
         
         self.m.save('map.html')
         
-        print('acesse o endereço http://localhost:8000/map.html')
+        print('Mapa Gerado')
+        #print('acesse o endereço http://localhost:8000/map.html')
         
-        os.system("killport 8000")
-        os.system("python -m http.server 8000")
-        
+        #os.system("killport 8000")
+        #os.system("python -m http.server 5000")
         
         
     def trata_dados(self):
